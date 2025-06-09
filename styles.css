@@ -42,6 +42,7 @@ body {
     background-color: var(--bg-color-default);
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .font-branch {
@@ -617,8 +618,9 @@ form textarea:valid {
         aspect-ratio: initial;
     }
 
-    #my-projects .projects_layout > a {
-        grid-column: 1 / 13 !important;
+    #my-projects .projects_layout {
+        display: flex;
+        flex-direction: column;
     }
 
     footer {
@@ -643,5 +645,9 @@ form textarea:valid {
 
     #about-me .about-me-actions .btn {
         width: 100%;
+    }
+
+    .phone_number{
+        font-size: 18vmin;
     }
 }
