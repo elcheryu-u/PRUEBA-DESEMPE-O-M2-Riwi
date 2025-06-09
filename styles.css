@@ -474,6 +474,7 @@ footer section h6 {
     align-items: center;
     gap: 1.5rem;
     flex: 1;
+    flex-flow: row wrap;
 }
 
 .socials-container li {
@@ -607,6 +608,13 @@ form textarea:valid {
         padding: .5rem;
         margin-top: -1rem;
         margin-bottom: 1rem;
+    }
+
+    .socials-container li {
+        max-width: initial;
+    }
+    .socials-container a {
+        aspect-ratio: initial;
     }
 
     #my-projects .projects_layout > a {
