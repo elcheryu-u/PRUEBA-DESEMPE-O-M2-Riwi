@@ -627,3 +627,13 @@ form textarea:valid {
     }
 
 }
+
+@media screen and (max-width: 544px) {
+    header nav a span.hide {
+        display: none;
+    }
+
+    #about-me .about-me-actions .btn {
+        width: 100%;
+    }
+}

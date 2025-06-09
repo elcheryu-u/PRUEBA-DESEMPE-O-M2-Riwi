@@ -57,4 +57,4 @@ El css tiene unos comentarios que indican jerarquía.
 
 Antes de esos comentarios están los estilos globales. Son clases y variables que se reutilizan a lo largo de toda la página.
 
-No se necesitaron más de 1 media query (768px).
+No se necesitaron más de 2 media query (768px) y (544px).
